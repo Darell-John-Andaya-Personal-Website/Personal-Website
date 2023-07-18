@@ -44,6 +44,10 @@ main {
 }
 
 /* CSS for about page */
+#about-container {
+    display: flex;
+    flex-flow: column nowrap; 
+}
 .hobby-container {
     display: flex;
 }
