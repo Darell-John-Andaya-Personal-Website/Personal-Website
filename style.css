@@ -37,13 +37,13 @@ main {
     background-color: #E4EFE7;
 }
 
-/* CSS for home page */
+/* CSS for home.html */
 #home-photo {
     height: 250px;
     width: 150px;
 }
 
-/* CSS for about page */
+/* CSS for about.html */
 #about-container {
     display: flex;
     flex-flow: column nowrap; 
@@ -53,6 +53,21 @@ main {
 }
 
 .hobby-photos {
+    height: 250px;
+    width: 150px;
+    padding: 10px;
+}
+
+/* CSS for portfolio.html */
+#portfolio-container {
+    display: flex;
+    flex-flow: column nowrap; 
+}
+.resume-container {
+    display: flex;
+}
+
+.resume-photos {
     height: 250px;
     width: 150px;
     padding: 10px;
