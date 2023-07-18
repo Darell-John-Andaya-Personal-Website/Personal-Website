@@ -55,4 +55,5 @@ main {
 .hobby-photos {
     height: 250px;
     width: 150px;
+    padding: 10px;
 }
