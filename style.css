@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    left: 0px;
+    right: 0px;
+}
+
+header > span {
+    float: left;
+}
+
+header > nav {
+    float: right;
+    display: flex;
+}
+
+nav > a {
+    padding: 0.25em;   
+}
+main{
+    padding: 64px 24px;
+}
+
+.body-container {
+    display: flex;
+}
+
+#home-photo{
+    height: 250px;
+    width: 150px;
+}
+
