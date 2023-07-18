@@ -1,5 +1,7 @@
 body {
-    margin: 0px;
+    margin: 0px auto;
+    background-color: #FAF1E6;
+    max-width: 960px;
 }
 
 header {
@@ -12,6 +14,7 @@ header {
     font-size: 1rem;
     left: 0px;
     right: 0px;
+    background-color: #FDFAF6;
 }
 
 header > span {
@@ -27,11 +30,13 @@ nav > a {
     padding: 0.25em;   
 }
 
-main{
+main {
+    min-height: 100vh;
     padding: 64px 24px;
+    background-color: #E4EFE7;
 }
 
-.body-container {
+.main-container {
     display: flex;
 }
 
