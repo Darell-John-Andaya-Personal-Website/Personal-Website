@@ -31,17 +31,24 @@ nav > a {
 }
 
 main {
+    display: flex;
     min-height: 100vh;
     padding: 64px 24px;
     background-color: #E4EFE7;
 }
 
-.main-container {
-    display: flex;
-}
-
-#home-photo{
+/* CSS for home page */
+#home-photo {
     height: 250px;
     width: 150px;
 }
 
+/* CSS for about page */
+.hobby-container {
+    display: flex;
+}
+
+.hobby-photos {
+    height: 250px;
+    width: 150px;
+}
