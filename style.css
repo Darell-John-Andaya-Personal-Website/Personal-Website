@@ -55,7 +55,8 @@ main > h1 {
 /* CSS for home.html */
 #home-photo {
     height: 200px;
-    width: 200px;
+    width: 150px;
+    padding: 10px
 }
 
 /* CSS for about.html */
@@ -94,7 +95,7 @@ main > h1 {
 }
 
 .resume-photos {
-    height: 250px;
+    height: 200px;
     width: 150px;
     padding: 10px;
 }
