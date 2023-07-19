@@ -38,7 +38,7 @@ a {
 a:hover {
     font-size: 22px;
 }
-/** CSS for all pages **/
+/** CSS for multiple pages **/
 main {
     display: flex;
     min-height: 100vh;
@@ -46,26 +46,42 @@ main {
     background-color: #E4EFE7;
 }
 
+main > h1 {
+    position: center;
+    margin: auto;
+    width: 100%;
+}
+
 /* CSS for home.html */
 #home-photo {
-    height: 250px;
-    width: 150px;
-    padding: 10px;
+    height: 200px;
+    width: 200px;
 }
 
 /* CSS for about.html */
 #about-container {
     display: flex;
-    flex-flow: column nowrap; 
+    flex-flow: row wrap; 
+    padding-top: 50px;
+    justify-content: flex-start;
+    min-height: 630px;
+    gap: 10px 20px;
+    text-align: center;
 }
+
 .hobby-container {
     display: flex;
+    height: 200px;
+    width: 47%;
+    overflow-wrap: normal;
+    flex-flow: column nowrap;
 }
 
 .hobby-photos {
-    height: 250px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     padding: 10px;
+    margin: auto;
 }
 
 /* CSS for portfolio.html */

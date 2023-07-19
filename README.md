@@ -1,6 +1,6 @@
 # Personal-Website
 
-## This is a website is an introduction
+## This website is an introduction to myself
 
 ### Description
 
