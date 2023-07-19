@@ -7,7 +7,7 @@ body {
 header {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: fixed;
     padding: 0.5em 1em;
@@ -17,19 +17,28 @@ header {
     background-color: #FDFAF6;
 }
 
-header > span {
-    float: left;
-}
-
-header > nav {
-    float: right;
+/** CSS for header **/
+nav {
     display: flex;
+    position: center;
 }
 
-nav > a {
-    padding: 0.25em;   
+a {
+    padding: 0.6em;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.2s;
 }
 
+.active-page {
+    text-decoration: underline;
+}
+a:hover {
+    font-size: 22px;
+}
+/** CSS for all pages **/
 main {
     display: flex;
     min-height: 100vh;
