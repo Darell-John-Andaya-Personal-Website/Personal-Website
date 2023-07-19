@@ -50,6 +50,7 @@ main {
 #home-photo {
     height: 250px;
     width: 150px;
+    padding: 10px;
 }
 
 /* CSS for about.html */
