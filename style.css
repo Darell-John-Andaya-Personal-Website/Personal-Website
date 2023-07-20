@@ -9,7 +9,6 @@ header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items: center;
     position: fixed;
     padding: 0.5em 1em;
     left: 0px;
@@ -20,7 +19,6 @@ header {
 /** CSS for header **/
 nav {
     display: flex;
-    position: center;
 }
 
 nav > a {
@@ -39,6 +37,7 @@ nav > a {
 nav > a:hover {
     font-size: 22px;
 }
+
 /** CSS for multiple pages **/
 main {
     display: flex;
@@ -52,7 +51,8 @@ main > h1 {
     position: center;
     margin: 0px auto;
     width: 100%;
-    padding-top: 10px
+    padding-top: 10px;
+    top: 50px
 }
 
 /* CSS for home.html */
@@ -66,18 +66,16 @@ main > h1 {
 #about-container {
     display: flex;
     flex-flow: row wrap; 
-    justify-content: flex-start;
     top: 10px;
-    column-gap: 20px;
+    gap: 5px 10px;
     text-align: center;
 }
 
 .hobby-container {
-    display: flex;
     height: 300px;
-    width: 47%;
-    overflow-wrap: normal;
-    flex-flow: column nowrap;
+    width: 360px;
+    min-width: 360px;
+    margin: auto;
     background-color: #FAF1E6;
     border-style: ridge;
 }
@@ -115,3 +113,6 @@ div > h2 {
     width: 150px;
     padding: 10px;
 }
+
+
+/* need to clean css / remove redundant lines */
