@@ -14,6 +14,7 @@ header {
     left: 0px;
     right: 0px;
     background-color: #FDFAF6;
+    z-index: 2;
 }
 
 /** CSS for header **/
@@ -42,17 +43,21 @@ nav > a:hover {
 main {
     display: flex;
     min-height: 100vh;
+    position: relative;
     padding: 64px 24px;
     background-color: #E4EFE7;
-    box-shadow: 0 0 12px -2px black
+    box-shadow: 0 0 12px -2px black;
+    z-index: 0
 }
 
-main > h1 {
-    position: center;
-    margin: 0px auto;
+body > h1 {
+    position: relative;
     width: 100%;
-    padding-top: 10px;
-    top: 50px
+    padding: 10px 20px 15px;
+    top: 70px;
+    left: 25%;
+    z-index: 1;
+    margin: auto;
 }
 
 /* CSS for home.html */
@@ -66,16 +71,15 @@ main > h1 {
 #about-container {
     display: flex;
     flex-flow: row wrap; 
-    top: 10px;
     gap: 5px 10px;
     text-align: center;
+    max-height: 400px;
 }
 
 .hobby-container {
     height: 300px;
     width: 360px;
-    min-width: 360px;
-    margin: auto;
+    margin:  10px auto;
     background-color: #FAF1E6;
     border-style: ridge;
 }
