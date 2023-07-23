@@ -20,7 +20,15 @@ header, footer {
 footer {
     bottom: 0;
     justify-content: center;
-    gap: 10px;
+    gap: 12px;
+}
+
+input {
+    border: 1px solid black;
+}
+
+input[type=text]:focus {
+    border: 4px solid black
 }
 /** CSS for header **/
 nav {
@@ -123,5 +131,3 @@ div > h2 {
     width: 150px;
     padding: 10px;
 }
-
-/* need to clean css / remove redundant lines */
